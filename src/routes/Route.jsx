@@ -7,6 +7,7 @@ import OtpVerification from "../pages/auth/OtpVerification";
 import ResetPassword from "../pages/auth/ResetPassword";
 import SetNewPassword from "../pages/auth/SetNewPassword";
 import App from "../pages/App";
+import Events from "../pages/Events";
 
 export const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
             {
                 path: '/app',
                 element: <App />
+            },
+            {
+                path: '/events',
+                element: <Events />
             },
         ]
     }
